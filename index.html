@@ -1985,11 +1985,11 @@ const VIEWS=[
   $('#g21t').textContent=VIEWS[k21][1]; $('#g21d').textContent=VIEWS[k21][2];
  }
  $$('#g21th button').forEach(b=>b.addEventListener('click',()=>{clearInterval(it21);vw(+b.dataset.k);}));
- $('#z21').onclick=()=>openLbSet(VIEWS.map(v=>({src:'assets/renders/'+v[0]+'.webp',cap:v[1]})),k21);
+ $('#z21').onclick=()=>{clearInterval(it21);openLbSet(VIEWS.map(v=>({src:'assets/renders/'+v[0]+'.webp',cap:v[1]})),k21);};
  let dx=null;
  g.addEventListener('mousedown',e=>{dx=e.clientX;clearInterval(it21);});
  addEventListener('mouseup',e=>{if(dx===null)return;const d=e.clientX-dx;if(Math.abs(d)>40)vw(k21+(d<0?1:-1));dx=null;});
- g.addEventListener('click',e=>{if(e.target.tagName==='IMG'&&e.target.classList.contains('on')&&dx===null)openLbSet(VIEWS.map(v=>({src:'assets/renders/'+v[0]+'.webp',cap:v[1]})),k21);});
+ g.addEventListener('click',e=>{if(e.target.tagName==='IMG'&&e.target.classList.contains('on')&&dx===null){clearInterval(it21);openLbSet(VIEWS.map(v=>({src:'assets/renders/'+v[0]+'.webp',cap:v[1]})),k21);}});
  onEnter[20]=()=>{vw(0);clearInterval(it21);it21=setInterval(()=>{if(cur!==20)return clearInterval(it21);vw(k21+1);},3200);};
 })();
 
