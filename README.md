@@ -2,7 +2,8 @@
 
 Apresentação HTML da 75 LAB para a **Parmalat Fit (Lactalis)**: estratégia de shopper, arquitetura 360° da ilha, engenharia modular, rastreamento e cronograma até a instalação em 20 de outubro de 2026.
 
-**No ar:** https://projetos.75lab.com.br/parmalat-fit-hub/
+- **Versão de apresentação, 10 telas:** https://projetos.75lab.com.br/parmalat-fit-hub/
+- **Versão completa, 26 telas:** https://projetos.75lab.com.br/parmalat-fit-hub/completo/
 
 ## Como apresentar
 
@@ -10,41 +11,27 @@ Apresentação HTML da 75 LAB para a **Parmalat Fit (Lactalis)**: estratégia de
 | --- | --- |
 | Avançar | seta direita, espaço, Page Down, clique nos botões, scroll, swipe |
 | Voltar | seta esquerda, Page Up |
-| Índice das 26 telas | `M` |
+| Índice das telas | `M` |
 | Tela cheia | `F` |
 | Fechar índice ou lightbox | `Esc` |
-| Ir direto a uma tela | `#<número>` na URL, ex.: `.../parmalat-fit-hub/#10` |
+| Ir direto a uma tela | `#<número>` na URL, ex.: `.../parmalat-fit-hub/#4` |
 
-## Estrutura
+## As 10 telas
 
-26 telas, cada uma com layout próprio e uma interação que explica algo do negócio:
+| # | Tela | Interação |
+| --- | --- | --- |
+| 01 | Abertura · os 12 segundos de decisão | Contador e trilha de capítulos clicável |
+| 02 | O desafio · demanda alta, leitura fragmentada | Alterna a loja espalhada contra a ilha única, com as 8 famílias e os números de mercado |
+| 03 | O shopper · necessidade e os quatro tempos | Linha do tempo com playhead sobre o render e frases de necessidade em rotação |
+| 04 | O Parmalat Fit Hub · reveal e conceito | Verbos acendendo em sequência sobre o render |
+| 05 | Arquitetura 360° | Planta clicável com quatro zonas, render e barra de participação por face |
+| 06 | Leitura e acabamento | Simulador de distância de 5 m a 40 cm, halo animado, LED e materiais |
+| 07 | Engenharia e capacidade | Vista explodida com slider, regra de blocagem e planograma |
+| 08 | Plano de rastreamento 75 LAB | Fluxo animado com One Shot e On Timing |
+| 09 | Mensuração e cronograma | Gantt animado até 20/10 e indicadores do piloto |
+| 10 | Síntese e institucional | Volta aos 12 segundos e dados da 75 LAB |
 
-1. Abertura · os 12 segundos de decisão
-2. Agenda em trilha de 6 capítulos
-3. Mercado · números com count-up
-4. O ecossistema · 8 famílias clicáveis com packshots oficiais
-5. O paradoxo · loja fragmentada contra ilha única
-6. Leitura do desafio · funil de decupagem
-7. O shopper · necessidades ligadas às zonas da ilha
-8. A regra dos 12 segundos · linha do tempo com playhead sobre o render
-9. Território competitivo · quadrante com o espaço vago
-10. Reveal do Parmalat Fit Hub
-11. Conceito "Sua fonte de proteína é aqui"
-12. Arquitetura 360° · planta clicável com quatro zonas
-13. Face A · Performance (40 e 60)
-14. Face B · Lanche proteico (15g e 23g)
-15. Pontas A e B · as duas geladeiras
-16. O Halo Fit · com e sem halo
-17. Hierarquia de comunicação · simulador de distância
-18. Luz e materiais · luz ligada e desligada
-19. Engenharia modular · vista explodida com slider
-20. Capacidade, planograma e blocagem
-21. A ilha por todos os ângulos · 10 vistas com lightbox
-22. Plano de rastreamento 75 LAB · One Shot e On Timing
-23. Mensuração do piloto
-24. Cronograma até 20/10
-25. Síntese
-26. Institucional
+A versão de 26 telas em `completo/` abre cada capítulo em profundidade: mercado, ecossistema, paradoxo, debrief, território competitivo, Face A, Face B, pontas A e B, halo, hierarquia, luz, engenharia, capacidade, galeria de 10 vistas com lightbox, rastreamento, mensuração e cronograma.
 
 ## Fontes do conteúdo
 
@@ -57,7 +44,7 @@ Apresentação HTML da 75 LAB para a **Parmalat Fit (Lactalis)**: estratégia de
 
 ## Pendências de conteúdo
 
-- Packshots de queijo fatiado proteico e creme de ricota proteico (tiles com moldura tracejada na tela 04)
+- Packshots de queijo fatiado proteico e creme de ricota proteico (tiles com moldura tracejada na tela 02)
 - Razão social, CNPJ, cargo e telefone na tela institucional
 - Modelo homologado das duas geladeiras, que congela as dimensões reais
 
